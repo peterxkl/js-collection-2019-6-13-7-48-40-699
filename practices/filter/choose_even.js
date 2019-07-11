@@ -1,8 +1,10 @@
 'use strict';
 
 function choose_even(collection) {
-
-  //implement here
+   let collections=collection.filter((num)=>{
+      return num%2==0;
+   });
+   return collections;
 }
 
 module.exports = choose_even;
